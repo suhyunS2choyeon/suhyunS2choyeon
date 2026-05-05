@@ -18,7 +18,7 @@ const CONFIG = {
 
   // ── 메인 (히어로) ──
   groom: {
-    name: "채수현",
+    name: "채수현", 
     nameEn: "Groom",
     father: "채호석",
     mother: "이도연",
