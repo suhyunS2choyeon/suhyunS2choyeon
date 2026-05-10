@@ -38,8 +38,8 @@ const CONFIG = {
   wedding: {
     date: "2026-09-19",
     time: "15:00",
-    venue: "강동 KDW 마이더스홀",
-    hall: "그랜드홀 5층",
+    venue: "강동 KDW 웨딩",
+    hall: "마이더스 홀",
     address: "서울 강동구 천호대로 1102",
     tel: "02-477-7700",
     mapLinks: {
@@ -66,20 +66,20 @@ const CONFIG = {
   // ── 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "홍길동", bank: "국민은행", number: "000-000-000000" },
-      { role: "아버지", name: "홍판서", bank: "신한은행", number: "000-000-000000" },
-      { role: "어머니", name: "김부인", bank: "우리은행", number: "000-000-000000" }
+      { role: "신랑", name: "채수현", bank: "카카오뱅크", number: "000-000-000000" },
+      { role: "아버지", name: "채호석", bank: "신한은행", number: "000-000-000000" },
+      { role: "어머니", name: "이도연", bank: "우리은행", number: "000-000-000000" }
     ],
     bride: [
-      { role: "신부", name: "김영희", bank: "하나은행", number: "000-000-000000" },
-      { role: "아버지", name: "김사장", bank: "기업은행", number: "000-000-000000" },
-      { role: "어머니", name: "이부인", bank: "농협은행", number: "000-000-000000" }
+      { role: "신부", name: "변초연", bank: "신한은행", number: "110-438-665082" },
+      { role: "아버지", name: "변두병", bank: "신한은행", number: "110-271-537592" },
+      { role: "어머니", name: "전은경", bank: "신한은행", number: "000-000-000000" }
     ]
   },
 
   // ── 링크 공유 시 나타나는 문구 ──
   meta: {
-    title: "신랑 ♥ 신부 결혼합니다",
-    description: "2025년 1월 1일, 소중한 분들을 초대합니다."
+    title: "수현 ♥ 초연 결혼합니다",
+    description: "2025년 9월 19일, 소중한 분들을 초대합니다."
   }
 };
