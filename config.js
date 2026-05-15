@@ -66,14 +66,14 @@ const CONFIG = {
   // ── 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "채수현", bank: "카카오뱅크", number: "000-000-000000" },
-      { role: "아버지", name: "채호석", bank: "신한은행", number: "000-000-000000" },
-      { role: "어머니", name: "이도연", bank: "우리은행", number: "000-000-000000" }
+      { role: "신랑", name: "채수현", bank: "카카오뱅크", number: "3333-37-3068991" },
+      { role: "아버지", name: "채호석", bank: "우리은행", number: "1002-543-132726" },
+      { role: "어머니", name: "이도연", bank: "국민은행", number: "506102-01-329411" }
     ],
     bride: [
-      { role: "신부", name: "변초연", bank: "신한은행", number: "110-438-665082" },
-      { role: "아버지", name: "변두병", bank: "신한은행", number: "110-271-537592" },
-      { role: "어머니", name: "전은경", bank: "신한은행", number: "000-000-000000" }
+      { role: "신부", name: "변초연", bank: "카카오뱅크", number: "3333-23-8708605" },
+      { role: "아버지", name: "변두병", bank: "기업은행", number: "284-009733-03026" },
+      { role: "어머니", name: "전은경", bank: "신한은행", number: "110-294-067340" }
     ]
   },
 
