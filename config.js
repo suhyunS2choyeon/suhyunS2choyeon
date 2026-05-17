@@ -12,6 +12,10 @@
  *   images/og/1.jpg        - 카카오톡 공유 썸네일 (1장)
  */
 
+const kakaoPreviewContent = {
+  description: `채수현 ❤️ 변초연 결혼합니다\n9월 19일 (토) 오후 3시/n강동 KDW 웨딩 마이더스홀`
+};
+
 const CONFIG = {
   // ── 초대장 열기 ──
   useCurtain: false,  // 초대장 열기 화면 사용 여부 (true: 사용, false: 바로 본문 표시)
