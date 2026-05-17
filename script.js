@@ -435,33 +435,6 @@
   }
 
   /* ═══════════════════════════════════════════
-     location fixed
-     ═══════════════════════════════════════════ */
-
-// 사진 닫아도 위치 고정
-let savedScrollY = 0; // 스크롤 위치를 기억할 변수 추가
-
-function openPhotoModal(images, index) {
-  modalImages = images;
-  modalIndex = index;
-  
-  // 모달을 열기 직전의 스크롤 위치 저장
-  savedScrollY = window.scrollY; 
-  
-  showModalImage();
-  $('#photoModal').classList.add('is-open');
-  document.body.classList.add('no-scroll');
-}
-
-function closePhotoModal() {
-  $('#photoModal').classList.remove('is-open');
-  document.body.classList.remove('no-scroll');
-  
-  // 모달이 닫히면 저장해둔 원래 스크롤 위치로 즉시 이동
-  window.scrollTo(0, savedScrollY); 
-}
-
-  /* ═══════════════════════════════════════════
      Gallery Section
      ═══════════════════════════════════════════ */
 
@@ -498,10 +471,12 @@ function closePhotoModal() {
   let touchEndX = 0;
   let touchStartY = 0;
   let touchEndY = 0;
+  let savedScrollY = 0; 
 
   function openPhotoModal(images, index) {
     modalImages = images;
     modalIndex = index;
+    savedScrollY = window.scrollY; 
     showModalImage();
     $('#photoModal').classList.add('is-open');
     document.body.classList.add('no-scroll');
@@ -510,6 +485,7 @@ function closePhotoModal() {
   function closePhotoModal() {
     $('#photoModal').classList.remove('is-open');
     document.body.classList.remove('no-scroll');
+    window.scrollTo(0, savedScrollY); 
   }
 
   function showModalImage() {
